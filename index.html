@@ -1,36 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hilmi Rizadha — Portfolio</title>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<title>Hilmi Rizadha — Portfolio</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #222;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header h2 {
+  margin-top: 10px;
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h3 {
+  border-left: 5px solid #1d4ed8;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 12px;
+}
+
+.skill-box {
+  background: white;
+  padding: 14px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.badge {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #1e3a8a;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #0f172a;
+  color: white;
+  margin-top: 60px;
+}
+
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+</style>
 </head>
 
 <body>
+
+<header>
   <h1>Hilmi Rizadha</h1>
   <h2>Assistant Manager — Consumer Loan & Risk Governance</h2>
+  <p>Banking • Credit Analysis • Risk Monitoring • Governance</p>
+</header>
 
-  <p>
-  Banking professional with 3+ years experience in credit analysis,
-  portfolio monitoring, and governance support at Maybank Indonesia.
-  </p>
+<div class="container">
 
-  <h3>Core Skills</h3>
-  <ul>
-    <li>Credit Risk Analysis</li>
-    <li>Portfolio Monitoring</li>
-    <li>Risk Governance</li>
-    <li>Consumer Lending</li>
-  </ul>
+  <!-- ABOUT -->
+  <div class="section">
+    <h3>About</h3>
+    <div class="card">
+      Banking professional with 3+ years experience in consumer lending,
+      credit risk analysis, portfolio monitoring, and governance support
+      at Maybank Indonesia. Focused on data-driven risk evaluation,
+      control framework support, and responsible lending practices.
+    </div>
+  </div>
 
-  <h3>Projects</h3>
-  <ul>
-    <li>Credit Portfolio Monitoring Framework</li>
-    <li>Mortgage Simulation Model</li>
-    <li>Risk Control Checklist</li>
-  </ul>
+  <!-- SKILLS -->
+  <div class="section">
+    <h3>Core Skills</h3>
 
-  <h3>Contact</h3>
-  <p>Email: your@email.com</p>
+    <div class="skills">
+      <div class="skill-box">Credit Risk Assessment</div>
+      <div class="skill-box">Portfolio Monitoring</div>
+      <div class="skill-box">Risk Governance</div>
+      <div class="skill-box">Consumer Lending</div>
+      <div class="skill-box">Risk Control Framework</div>
+      <div class="skill-box">Data Analysis (Excel)</div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <h3>Experience</h3>
+
+    <div class="card">
+      <div class="project-title">
+        Maybank Indonesia — Consumer Loan Division
+      </div>
+
+      <span class="badge">Assistant Manager</span>
+      <span class="badge">Risk & Governance Support</span>
+
+      <ul>
+        <li>Support credit portfolio monitoring</li>
+        <li>Review risk indicators and portfolio signals</li>
+        <li>Assist governance & control implementation</li>
+        <li>Support risk review documentation</li>
+        <li>Monitoring and reporting structure improvement</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section">
+    <h3>Selected Projects (Sanitized)</h3>
+
+    <div class="card">
+      <div class="project-title">
+        Credit Portfolio Monitoring Framework
+      </div>
+      Designed structured monitoring template with layered
+      risk indicators and escalation triggers to improve
+      anomaly detection consistency.
+    </div>
+
+    <div class="card">
+      <div class="project-title">
+        Mortgage Simulation Model
+      </div>
+      Built installment scenario simulation logic for
+      mortgage products to support pricing and
+      customer explanation.
+    </div>
+
+    <div class="card">
+      <div class="project-title">
+        Risk Control Checklist Enhancement
+      </div>
+      Standardized operational control checklist
+      to reduce missed control points across process stages.
+    </div>
+
+  </div>
+
+  <!-- CERT -->
+  <div class="section">
+    <h3>Certification</h3>
+    <div class="card">
+      Sustainability Certification — Maybank
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="section">
+    <h3>Contact</h3>
+    <div class="card">
+      Email: your@email.com<br>
+      LinkedIn: linkedin.com/in/yourprofile
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Hilmi Rizadha — Portfolio
+</footer>
 
 </body>
 </html>
